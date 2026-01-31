@@ -50,7 +50,7 @@ public class HashCodeTester {
     }
     @Test public void t8(){
         D x = new D(0, 0);
-        D y = new D(0, 0);;
+        D y = new D(0, 0);
         assertTrue(x.equals(y) == (x.hashCode() == y.hashCode()));
     }
 
